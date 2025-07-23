@@ -1,1 +1,1 @@
-# odin_recipes
+This is my The Odin Project assignment for a basic recipe website.
