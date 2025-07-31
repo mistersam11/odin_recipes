@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+#home-title {
+    margin: 2vw auto;
+    padding: 2vw;
+    width: 100%;
+    text-align: center;
+    font-size: 10vw;
+    color: orange;
+    text-shadow: 1vw 1vw 1vw black;
+    font-weight: bold;
+    background-color: #00000050;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#recipe-div {
+    text-align: center;
+    margin: 2vw;
+}
+
+.recipe-link {
+    list-style-type: none;
+    margin: 1vw;
+    padding: 1vw;
+    font-size: 5vw;
+    font-weight: bold;
+    color: black;
+    background-color: #00000050;
+    font-family: fantasy;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.no-underline:hover {
+    text-decoration: underline;
+}
+
+.recipe-img {
+    display: block;
+    margin: 2vw auto;
+    width: 80vw;
+    height: 30vw;
+    object-fit: cover;
+
+}
+
+#home-link {
+    display: block;
+    margin: 2vw auto;
+    padding: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: 600;
+    color: blue;
+    background-color: #00000050;
+    width: 12vw;
+}
+
+h3 {
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1vw 10vw;
+}
+
+p {
+    margin: 1vw 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+
+ol {
+    margin: 1vw 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+
+ul {
+    margin: 1vw 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
